@@ -1,0 +1,414 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Serif:opsz@8..144&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+   
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+/* header style start */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding: 60px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+h2{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.nav li{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+/* header banner styles */
+
+.banner{
+    max-width: 862px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.banner-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+ 
+.btn{
+    text-align: center;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+   
+
+}
+
+.img{
+
+     
+    text-align: center;
+    padding-bottom: 50px ;
+}
+
+/* ---------------
+Team Features style 
+-------------------*/
+.team{
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin: 85px 150px;
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.team-title{
+    color: #727272; 
+    font-weight: 500;
+    font-size: 45px;
+}
+.t-high{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.t-high-1{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.team-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/*---------------------------
+
+All Features Styles 
+ 
+---------------------*/
+.features{
+        display: flex;
+        gap: 65px;
+        margin-left: 145px;
+        margin-right: 100px;
+        margin-bottom: 130px;
+}
+
+
+.f-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-top: 45px;
+}
+
+.f-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 30px 30px 42px;
+    margin-bottom: 20px;
+}
+
+.C-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.C-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.index img{
+    z-index: 1;
+}
+
+.experience{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+    margin-top: -125px;
+    margin-left: -65px;
+    position: absolute;
+    z-index: 2;
+}
+.e-title{
+    color: #FFFFFF;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+}
+.e-des{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*---------------------------
+
+Facts Styles 
+ 
+---------------------*/
+.facts{
+    margin-left: 145px;
+    margin-bottom: 50px;
+}
+.facts-t{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.facts-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+/* Four Box styles */
+.fact-box{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.box{
+
+    /* position: absolute; */
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px 55px 36px;
+    /* transform: rotate(90deg); */
+}
+
+.box-image{
+    text-align: center;
+}
+
+.box-t{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.box-d{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*---------------------------
+
+Sponsors Styles 
+ 
+---------------------*/
+
+.sponsors-content{
+    text-align: center;
+
+}
+.sponsor-t{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    
+    
+}
+
+.sponsor-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.sponsors-logo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.logo{
+    /* position: absolute; */
+    width: 166.76px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+
+/* 
+------- Extra section ----------
+======Project section==========
+
+*/
+.extra{
+    width: 75%;
+    margin: 80px auto;
+}
+
+.p-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #49497e;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-img{
+    border-radius: 8px;
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+.proj-des{
+    color: #7c7c7c;
+    padding: 0px 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn1{
+    padding: 8px 15px;
+    background-color: #FF900E ;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.line{
+    width: 140px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+/* Footer Styles */
+
+footer{
+    width: 1440px;
+    background: #FFF4E7;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.footer-section{
+    text-align: center;
+    padding: 40px 10px;
+    margin-top: 130px;
+    margin-bottom: 210px;
+}
+.footer-p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+/*----------------------------
+ Mobile Devices
+----------------------------- */
+@media only screen and (max-width:688px){
+
+    .nav{
+        flex-direction: column;
+    }
+    .img{
+        width: 40%;
+    }
+
+}
