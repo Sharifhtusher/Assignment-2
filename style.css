@@ -182,6 +182,7 @@ All Features Styles
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    text-overflow: ellipsis;
 }
 
 .index img{
@@ -429,7 +430,7 @@ footer{
 
 */
 .banner-des{
-    padding: 10px 100px;
+     padding: 10px 100px;
 }
 .b-img img{
     width: 100%;
